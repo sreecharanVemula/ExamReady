@@ -1,0 +1,176 @@
+{
+  "users": [
+    {
+      "name": "shivasmart2800@gmail.com",
+      "class": "jee",
+      "institute": "VNR",
+      "username": "shiva",
+      "email": "shivasmart2800@gmail.com",
+      "password": "$2a$05$V60Dl/al5F7HT7xiAImlt.qd9qx8WOrbWL/0l7hWoM8SPfFAYa1IC",
+      "id": 1
+    }
+  ],
+    "subjects": [
+      {
+        "id": 1,
+        "name": "Mathematics",
+        "description": "Study of numbers, quantity, and space",
+        "topics": [
+            {"id": 1, "name": "Differential Equations", "description": "Introduction to differential equations",
+            "questions": [
+                {"id": 1, "text": "Solve the differential equation: dy/dx = 2x.", "answer": "y = x^2 + C, where C is the constant of integration."},
+                {"id": 2, "text": "Find the particular solution of the differential equation: dy/dx = x^2, y(0) = 1.", "answer": "y = (1/3)x^3 + 1."},
+                {"id": 3, "text": "Verify if the function y = e^(2x) is a solution to the differential equation dy/dx = 2e^(2x).", "answer": "Yes."},
+                {"id": 4, "text": "Solve the first-order linear differential equation: (x + 1)y' - 2y = 4.", "answer": "y = 2x + 3e^(2x)."},
+                {"id": 5, "text": "Use separation of variables to solve the differential equation: (y^2 + 1)dy/dx = 2x.", "answer": "y = tan(x + C), where C is the constant of integration."},
+                {"id": 6, "text": "Find the solution to the Bernoulli differential equation: y' - y = 2y^3.", "answer": "y = (1/(1 - C*e^(2x)))^(1/2), where C is the constant of integration."},
+                {"id": 7, "text": "Determine the interval on which the solution to the differential equation is guaranteed to exist: y' = y^2, y(0) = 1.", "answer": "The solution exists for -1 < y < 1."},
+                {"id": 8, "text": "Apply the method of undetermined coefficients to solve the differential equation: y'' - y = e^x.", "answer": "y = Ae^x + Be^(-x) + 1/2*x*e^x, where A and B are constants."},
+                {"id": 9, "text": "Solve the system of differential equations: dx/dt = x + y, dy/dt = x - y.", "answer": "x(t) = C1*cos(t) + C2*sin(t), y(t) = C1*sin(t) - C2*cos(t), where C1 and C2 are constants."},
+                {"id": 10, "text": "Evaluate the Laplace transform of the function f(t) = 3e^(2t) - 4sin(3t).", "answer": "L{f(t)} = 3/(s - 2) - 4/(s^2 + 9)."}
+              ]},
+            {"id": 2, "name": "Calculus", "description": "Fundamental principles of calculus",
+            "questions": [
+                {"id": 11, "text": "Find the derivative of the function f(x) = 3x^2 + 2x - 1.", "answer": "f'(x) = 6x + 2."},
+                {"id": 12, "text": "Calculate the integral: ∫(2x + 5)dx.", "answer": "x^2 + 5x + C, where C is the constant of integration."},
+                {"id": 13, "text": "Determine the critical points of the function g(x) = x^3 - 6x^2 + 9x.", "answer": "Critical points: x = 1, x = 3."},
+                {"id": 14, "text": "Evaluate the limit: lim(x → 2) (x^2 - 4) / (x - 2).", "answer": "The limit is 4."},
+                {"id": 15, "text": "Find the local minimum and maximum values of the function h(x) = x^3 - 3x^2 - 9x.", "answer": "Local minimum at x = -√3, local maximum at x = 3."},
+                {"id": 16, "text": "Compute the derivative of the natural logarithm function: d/dx(ln(x)).", "answer": "1/x."},
+                {"id": 17, "text": "Solve the differential equation dy/dx = 2x, given y(0) = 1.", "answer": "y = x^2 + 1."},
+                {"id": 18, "text": "Determine the intervals where the function f(x) = 2x^2 - 8x + 5 is increasing or decreasing.", "answer": "Increasing on (-∞, 2) and (4, ∞), decreasing on (2, 4)."},
+                {"id": 19, "text": "Find the absolute maximum and minimum values of the function k(x) = x^3 - 3x^2 + 2x on the interval [0, 3].", "answer": "Absolute maximum at x = 0, absolute minimum at x = 2."},
+                {"id": 20, "text": "Calculate the area under the curve y = x^2 from x = 1 to x = 3.", "answer": "The area is 6/3 units^2 or 2 square units."}
+              ]
+        },
+            {"id": 3, "name": "Linear Algebra", "description": "Study of linear systems and vector spaces",
+            "questions": [
+                {"id": 21, "text": "Given the matrices A = [[1, 2], [3, 4]] and B = [[5, 6], [7, 8]], find the sum A + B.", "answer": "[[6, 8], [10, 12]]."},
+                {"id": 22, "text": "Find the determinant of the matrix C = [[-2, 1], [4, -3]].", "answer": "Determinant of C is -10."},
+                {"id": 23, "text": "Given the matrix D = [[2, 0, -1], [1, 3, 2], [4, 5, 6]], find its inverse.", "answer": "Inverse of D is [[6, 5, -6], [-2, -2, 1], [-1, -1, 1]]."},
+                {"id": 24, "text": "Solve the system of linear equations: 2x + 3y = 7, 4x - y = 6.", "answer": "x = 2, y = 1."},
+                {"id": 25, "text": "Find the eigenvalues of the matrix E = [[3, 1], [2, 4]].", "answer": "Eigenvalues are 2 and 5."},
+                {"id": 26, "text": "Compute the cross product of vectors u = [2, -1, 3] and v = [4, 5, 1].", "answer": "u × v = [-14, 10, 13]."},
+                {"id": 27, "text": "Determine if the vectors w = [1, 2, -3] and z = [2, 4, -6] are linearly dependent or independent.", "answer": "The vectors are linearly dependent."},
+                {"id": 28, "text": "Find the rank of the matrix F = [[1, 2, 3], [4, 5, 6], [7, 8, 9]].", "answer": "Rank of F is 2."},
+                {"id": 29, "text": "Given the vector space V = {v1, v2, v3} with v1 = [1, 0, -1], v2 = [0, 1, 2], v3 = [-1, 2, 3], determine if it forms a basis for R^3.", "answer": "Yes, it forms a basis for R^3."},
+                {"id": 30, "text": "Verify if the transformation T: R^2 → R^2 defined by T(x, y) = (2x + y, 3x - y) is linear.", "answer": "Yes, the transformation is linear."}
+              ]},
+            {"id": 4, "name": "Number Theory", "description": "Properties and relationships of numbers"},
+            {"id": 5, "name": "Probability Theory", "description": "Understanding probability distributions"},
+            {"id": 6, "name": "Geometry", "description": "Properties of shapes and spaces"},
+            {"id": 7, "name": "Statistics", "description": "Analyzing and interpreting data"},
+            {"id": 8, "name": "Combinatorics", "description": "Counting and arranging objects"},
+            {"id": 9, "name": "Abstract Algebra", "description": "Algebraic structures and their properties"},
+            {"id": 10, "name": "Mathematical Logic", "description": "Study of logical principles in mathematics"}
+          ]
+      },
+      {
+        "id": 2,
+        "name": "Physics",
+        "description": "Study of matter, energy, and the fundamental forces of nature",
+        "topics": [
+            {"id": 11, "name": "Mechanics", "description": "Study of motion and forces",
+            "questions": [
+                {"id": 31, "text": "A car accelerates uniformly from rest to a speed of 30 m/s in 10 seconds. Calculate the acceleration of the car.", "answer": "Acceleration = 3 m/s^2."},
+                {"id": 32, "text": "A ball is thrown vertically upward with an initial velocity of 20 m/s. How high does the ball go? (Neglect air resistance.)", "answer": "The height is 20.4 meters."},
+                {"id": 33, "text": "A force of 50 N is applied to a 10 kg object. What is the acceleration of the object?", "answer": "Acceleration = 5 m/s^2."},
+                {"id": 34, "text": "Two forces, 30 N and 40 N, act at an angle of 60 degrees to each other. Find the resultant force.", "answer": "Resultant force = 50 N at an angle of 36.87 degrees."},
+                {"id": 35, "text": "A 500 kg car is moving with a velocity of 20 m/s. Calculate the kinetic energy of the car.", "answer": "Kinetic energy = 100,000 J."},
+                {"id": 36, "text": "If an object experiences a net force of 100 N and accelerates at 5 m/s^2, what is its mass?", "answer": "Mass = 20 kg."},
+                {"id": 37, "text": "A block of mass 2 kg is placed on an inclined plane with an angle of 30 degrees. Determine the gravitational force component parallel to the incline.", "answer": "Gravitational force component = 19.6 N."},
+                {"id": 38, "text": "A projectile is launched with an initial velocity of 40 m/s at an angle of 30 degrees to the horizontal. Calculate the maximum height reached by the projectile.", "answer": "Maximum height = 102.04 meters."},
+                {"id": 39, "text": "A spring with a force constant of 200 N/m is compressed by 0.2 meters. Calculate the potential energy stored in the spring.", "answer": "Potential energy = 2 J."},
+                {"id": 40, "text": "A 300 kg cart is moving on a horizontal surface with a velocity of 5 m/s. If the frictional force is 50 N, what is the net force acting on the cart?", "answer": "Net force = 0 N (assuming no other forces)."}
+              ]},
+            {"id": 12, "name": "Thermodynamics", "description": "Understanding heat and energy transfer",
+            "questions": [
+                {"id": 41, "text": "If 500 J of heat is added to a system, and the system does 200 J of work, what is the change in internal energy?", "answer": "Change in internal energy = 300 J (Q - W)."},
+                {"id": 42, "text": "A gas expands from a volume of 2 L to 6 L against a constant external pressure of 3 atm. Calculate the work done by the gas.", "answer": "Work done = 12 L·atm = 12 J."},
+                {"id": 43, "text": "Define the First Law of Thermodynamics and provide an equation representing it.", "answer": "First Law: Energy cannot be created or destroyed. Equation: ΔU = Q - W."},
+                {"id": 44, "text": "A container of gas undergoes an isothermal process. If 1500 J of heat is added, what is the work done by the gas?", "answer": "Work done = 1500 J (for an isothermal process)."},
+                {"id": 45, "text": "If the internal energy of a system decreases by 200 J and 150 J of work is done on the system, what is the heat exchanged?", "answer": "Heat exchanged = -50 J (Q = ΔU + W)."},
+                {"id": 46, "text": "A heat engine absorbs 800 J of heat and does 300 J of work. What is the efficiency of the heat engine?", "answer": "Efficiency = 62.5% (Efficiency = W/Qh)."},
+                {"id": 47, "text": "State the second law of thermodynamics and explain it in the context of entropy.", "answer": "Second Law: Entropy of an isolated system tends to increase over time. Entropy change is ΔS = Q/T."},
+                {"id": 48, "text": "A refrigerator absorbs 200 J of heat from the inside and rejects 50 J of heat to the surroundings. What is the net work done by the refrigerator?", "answer": "Net work done = 150 J (Net work = Qc - Qh)."},
+                {"id": 49, "text": "Define the term 'adiabatic process' in thermodynamics.", "answer": "An adiabatic process is one in which no heat is exchanged with the surroundings (Q = 0)."},
+                {"id": 50, "text": "A gas undergoes an isochoric process. If 300 J of heat is added, what is the change in internal energy?", "answer": "Change in internal energy = 300 J (for an isochoric process)."}
+              ]},
+            {"id": 13, "name": "Electricity and Magnetism", "description": "Principles of electric and magnetic fields",
+            "questions": [
+                {"id": 51, "text": "A circuit has a resistance of 20 ohms and a current of 2 A. Calculate the voltage across the circuit.", "answer": "Voltage = 40 V (Ohm's Law: V = IR)."},
+                {"id": 52, "text": "Two point charges, +Q and -Q, are separated by a distance 'd'. Calculate the electric potential energy between them.", "answer": "Electric potential energy = kQ^2/d, where k is Coulomb's constant."},
+                {"id": 53, "text": "If a wire carries a current of 4 A and is perpendicular to a magnetic field of 0.5 T, what is the force experienced by the wire?", "answer": "Force = 2 N (Force = BIL, where B is the magnetic field, I is the current, and L is the length of the wire)."},
+                {"id": 54, "text": "Define electric potential and provide the formula relating it to electric field and distance.", "answer": "Electric potential (V) = Electric field (E) * Distance (d)."},
+                {"id": 55, "text": "A capacitor with a capacitance of 10 μF is connected to a 12 V battery. Calculate the charge stored on the capacitor.", "answer": "Charge = 120 μC (Q = CV, where C is the capacitance and V is the voltage)."},
+                {"id": 56, "text": "An electron moves with a velocity of 3 x 10^6 m/s perpendicular to a magnetic field of 0.4 T. What is the magnetic force acting on the electron?", "answer": "Magnetic force = 1.2 x 10^(-12) N (F = qvB, where q is the charge, v is the velocity, and B is the magnetic field)."},
+                {"id": 57, "text": "A coil with 100 turns and an area of 0.02 m^2 is placed in a magnetic field of 0.1 T. Calculate the induced emf if the coil rotates at a rate of 50 Hz.", "answer": "Induced emf = 100 V (Emf = NABω, where N is the number of turns, A is the area, B is the magnetic field, and ω is the angular frequency)."},
+                {"id": 58, "text": "Two resistors of 4 ohms and 6 ohms are connected in series. What is the equivalent resistance of the combination?", "answer": "Equivalent resistance = 10 ohms (For resistors in series, Req = R1 + R2)."},
+                {"id": 59, "text": "In a parallel circuit, if the voltage across each resistor is 12 V and the resistances are 8 ohms and 16 ohms, calculate the total current.", "answer": "Total current = 1.5 A (For resistors in parallel, 1/Req = 1/R1 + 1/R2)."},
+                {"id": 60, "text": "A solenoid has 500 turns and carries a current of 2 A. Calculate the magnetic field inside the solenoid.", "answer": "Magnetic field = 0.002 T (B = μ₀nI, where μ₀ is the permeability of free space, n is the number of turns per unit length, and I is the current)."}
+              ]},
+            {"id": 14, "name": "Quantum Mechanics", "description": "Behavior of matter and energy at the smallest scales"},
+            {"id": 15, "name": "Optics", "description": "Study of light and its interactions with matter"},
+            {"id": 16, "name": "Nuclear Physics", "description": "Properties and behavior of atomic nuclei"},
+            {"id": 17, "name": "Astrophysics", "description": "Study of celestial objects and phenomena"},
+            {"id": 18, "name": "Fluid Dynamics", "description": "Motion of fluids and gases"},
+            {"id": 19, "name": "Relativity", "description": "Theory of space, time, and gravity"},
+            {"id": 20, "name": "Particle Physics", "description": "Study of subatomic particles and their interactions"}
+          ]
+      },
+      {
+        "id": 3,
+        "name": "Chemistry",
+        "description": "Study of the composition, structure, properties, and change of matter",
+        "topics": [
+            {"id": 21, "name": "Inorganic Chemistry", "description": "Properties and behavior of inorganic compounds",
+            "questions": [
+                {"id": 61, "text": "Calculate the molar mass of calcium carbonate (CaCO3).", "answer": "Molar mass = 100.09 g/mol."},
+                {"id": 62, "text": "If 2 moles of hydrogen react with 1 mole of oxygen to form water, what is the limiting reactant?", "answer": "Hydrogen is the limiting reactant."},
+                {"id": 63, "text": "Balance the chemical equation: Fe2O3 + CO → Fe + CO2.", "answer": "Fe2O3 + 3CO → 2Fe + 3CO2."},
+                {"id": 64, "text": "Calculate the pH of a solution with a hydrogen ion concentration of 1 x 10^(-9) M.", "answer": "pH = 9."},
+                {"id": 65, "text": "A sample of gas occupies 4 L at 27°C. If the temperature is increased to 77°C, what is the new volume (at constant pressure)?", "answer": "New volume = 5.33 L."},
+                {"id": 66, "text": "Determine the oxidation state of sulfur in H2SO4.", "answer": "Oxidation state of sulfur = +6."},
+                {"id": 67, "text": "How many moles of NaCl are present in 250 mL of a 0.5 M solution?", "answer": "Moles of NaCl = 0.125 mol."},
+                {"id": 68, "text": "Write the electron configuration for the element nitrogen (N).", "answer": "Electron configuration: 1s² 2s² 2p³."},
+                {"id": 69, "text": "If a reaction has a rate constant of 0.02 s^(-1), what is the half-life of the reaction?", "answer": "Half-life = 34.65 seconds."},
+                {"id": 70, "text": "Balance the chemical equation: NH4NO3 → N2O + H2O.", "answer": "NH4NO3 → N2O + 2H2O."}
+              ]
+        },
+            {"id": 22, "name": "Organic Chemistry", "description": "Study of carbon-containing compounds",
+            "questions": [
+                {"id": 71, "text": "Draw the structural formula for ethanol (C2H5OH).", "answer": "Structural formula: CH3CH2OH."},
+                {"id": 72, "text": "What is the IUPAC name for the following compound: CH3CH2COOH?", "answer": "IUPAC name: Propanoic acid."},
+                {"id": 73, "text": "If 2-bromopropane reacts with sodium ethoxide, what is the major product?", "answer": "Major product: Propene."},
+                {"id": 74, "text": "Write the reaction mechanism for the bromination of ethane.", "answer": "Free radical substitution mechanism."},
+                {"id": 75, "text": "Calculate the degree of unsaturation for a compound with the molecular formula C8H10.", "answer": "Degree of unsaturation = 4."},
+                {"id": 76, "text": "Identify the functional group in the compound CH3CHO.", "answer": "Functional group: Aldehyde."},
+                {"id": 77, "text": "Draw the resonance structures for the nitrate ion (NO3-).", "answer": "Resonance structures provided."},
+                {"id": 78, "text": "If a reaction has a rate constant of 0.05 s^(-1), what is the half-life of the reaction?", "answer": "Half-life = 13.86 seconds."},
+                {"id": 79, "text": "What is the major product in the dehydration of 2-methylcyclohexanol?", "answer": "Major product: 1-Methylcyclohexene."},
+                {"id": 80, "text": "Write the reaction mechanism for the hydrolysis of an ester.", "answer": "Nucleophilic acyl substitution mechanism."}
+              ]},
+            {"id": 23, "name": "Physical Chemistry", "description": "Understanding the physical principles of chemical systems",
+            "questions": [
+                {"id": 81, "text": "Calculate the work done when 2 moles of a gas expand isothermally at 300 K against a constant pressure of 1 atm.", "answer": "Work done = -RTln(V2/V1), where R is the ideal gas constant."},
+                {"id": 82, "text": "If a gas occupies 10 L at 25°C and 1 atm, what is the density of the gas in g/L?", "answer": "Density = 1.16 g/L."},
+                {"id": 83, "text": "What is the standard enthalpy change for the combustion of 1 mole of methane (CH4)?", "answer": "ΔH° = -890.3 kJ/mol."},
+                {"id": 84, "text": "If a reaction has a rate constant of 0.02 s^(-1), what is the half-life of the reaction?", "answer": "Half-life = 34.65 seconds."},
+                {"id": 85, "text": "Calculate the Gibbs free energy change (ΔG) for a reaction where ΔH = 50 kJ/mol and ΔS = 120 J/(mol·K) at 300 K.", "answer": "ΔG = ΔH - TΔS."},
+                {"id": 86, "text": "Define the term 'equilibrium constant' (Kc) in the context of a chemical reaction.", "answer": "Kc = [Products] / [Reactants]."},
+                {"id": 87, "text": "What is the Nernst equation, and how is it used to calculate the cell potential?", "answer": "Nernst equation: E = E° - (RT/nF) * ln(Q), where E is the cell potential, R is the ideal gas constant, T is the temperature, n is the number of moles of electrons transferred, F is Faraday's constant, and Q is the reaction quotient."},
+                {"id": 88, "text": "Calculate the pH of a 0.01 M hydrochloric acid solution.", "answer": "pH = 2."},
+                {"id": 89, "text": "Derive the expression for the ideal gas law (PV = nRT).", "answer": "Derived from the combined gas law and ideal gas equation."},
+                {"id": 90, "text": "Explain the concept of entropy in thermodynamics.", "answer": "Entropy is a measure of the disorder or randomness of a system. ΔS = Q/T."}
+              ]},
+            {"id": 24, "name": "Analytical Chemistry", "description": "Techniques for analyzing and characterizing substances"},
+            {"id": 25, "name": "Biochemistry", "description": "Chemical processes within and related to living organisms"},
+            {"id": 26, "name": "Polymer Chemistry", "description": "Study of polymers and macromolecules"},
+            {"id": 27, "name": "Environmental Chemistry", "description": "Chemistry of the environment and pollution"},
+            {"id": 28, "name": "Industrial Chemistry", "description": "Chemical processes in industrial production"},
+            {"id": 29, "name": "Medicinal Chemistry", "description": "Design and synthesis of pharmaceutical agents"},
+            {"id": 30, "name": "Nanotechnology", "description": "Manipulation of matter at the nanoscale"}
+          ]
+      }
+    ]
+  }
